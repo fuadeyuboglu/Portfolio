@@ -1,0 +1,35 @@
+/* Input style */
+.input {
+    width: 100%;
+    border-radius: 20px;
+    color: var(--dark-blue);
+    padding: 12px 10px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    /* line-height: 1.9; */
+    margin-bottom: 24px;
+    opacity: 0.8;
+    transition: opacity 200ms;
+}
+
+/* Email input style */
+.input-email {
+    background-color: var(--yellow);
+}
+
+/* Name input style */
+.input-name {
+    background-color: var(--baby-blue);
+}
+
+.input:focus {
+    opacity: 1;
+    outline: none;
+}
+
+/* Message area */
+textarea.input {
+    background-color: var(--green);
+    min-height: 100px;
+    resize: vertical;
+}
