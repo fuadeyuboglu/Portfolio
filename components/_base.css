@@ -6,3 +6,18 @@
     --yellow: #FBC92E;
     --text-color: white;
 }
+
+
+/* Default styles */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+input, textarea, button, select {
+    font: inherit;
+}
