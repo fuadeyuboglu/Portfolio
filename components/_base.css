@@ -28,3 +28,8 @@ body {
 input, textarea, button, select {
     font: inherit;
 }
+
+::selection {
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+}
