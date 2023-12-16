@@ -40,3 +40,9 @@ input, textarea, button, select {
     background-color: var(--yellow);
     color: var(--dark-blue);
 }
+
+@media (max-width: 37.5rem) {
+    html {
+        font-size: 70%;
+    }
+}
