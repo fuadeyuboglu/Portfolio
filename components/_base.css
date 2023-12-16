@@ -20,6 +20,13 @@ html {
     color: var(--text-color);
 }
 
+/* Smoothen scroll behavior incase user has no reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
