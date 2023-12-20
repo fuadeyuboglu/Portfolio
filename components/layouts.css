@@ -33,4 +33,18 @@
     .layout-grid-half {
         grid-template-columns: 1fr;
     }
+
+    .jumbotron {
+        flex-direction: column;
+        margin-top: 60px;
+    }
+
+    .jumbotron-text {
+        text-align: center;
+    }
+
+    #jumbotron-picture {
+        order: -1;
+        margin-bottom: 40px;
+    }
 }
