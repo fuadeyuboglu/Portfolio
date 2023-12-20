@@ -1,0 +1,21 @@
+.projects {
+    display: flex;
+    gap: var(--gap);
+    margin-bottom: 100px;
+}
+
+.project-screenshot {
+    border-radius: 20px;
+    width: clamp(175px, 20vw, 300px);
+    height: clamp(175px, 20vw, 300px);
+}
+
+.projects:nth-child(odd) .project-screenshot {
+    order: 1;
+}
+
+@media (max-width: 37.5rem) {
+    .projects {
+        display: block;
+    }
+}
