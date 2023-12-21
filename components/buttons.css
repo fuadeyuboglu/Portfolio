@@ -57,3 +57,10 @@
     padding: 20px 14px;
     border-radius: 20px;
 }
+
+.btn-send {
+    background-color: var(--orange);
+    color: var(--text-color);
+    padding: 20px 14px;
+    border-radius: 20px;
+}
