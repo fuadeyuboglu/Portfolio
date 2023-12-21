@@ -19,6 +19,12 @@
     order: 1;
 }
 
+.project-buttons {
+    display: flex;
+    gap: 25px;
+    place-items: flex-end;
+}
+
 @media (max-width: 37.5rem) {
     .projects {
         display: block;
