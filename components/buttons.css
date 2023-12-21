@@ -1,0 +1,66 @@
+.btn {
+    /* To reset default button styles */
+    all: unset;
+    /* Outline is crucial for accessibility */
+    outline: revert;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 1.5rem;
+    /* line-height: 1.5; */
+    /* letter-spacing: 2px; */
+    font-weight: bold;
+    transition: opacity 180ms, translate 180ms;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+.btn:active {
+    translate: 1px 1px;
+}
+
+/* Button variations */
+.btn-nav {
+    color: var(--text-color);
+    padding: 12px;
+}
+
+.btn-contact {
+    background-color: var(--green);
+    color: var(--text-color);
+    padding: 14px 20px;
+    border-radius: 20px;
+}
+
+.btn-home {
+    background-color: var(--orange);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+}
+
+.btn-live {
+    background-color: var(--orange);
+    color: var(--text-color);
+    padding: 20px 14px;
+    border-radius: 20px;
+}
+
+.btn-github {
+    background-color: var(--green);
+    color: var(--text-color);
+    padding: 20px 14px;
+    border-radius: 20px;
+}
+
+.btn-send {
+    background-color: var(--orange);
+    color: var(--text-color);
+    padding: 20px 14px;
+    border-radius: 20px;
+}

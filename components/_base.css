@@ -1,0 +1,48 @@
+:root {
+    --dark-blue: #112129;
+    --orange: #D63A31;
+    --green: #4DA74B;
+    --baby-blue: #6ECCFC;
+    --yellow: #FBC92E;
+    --text-color: white;
+    /* To adjust the gap size without using media queries */
+    --gap: clamp(30px, 10vw, 80px);
+}
+
+
+/* Default styles */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--dark-blue);
+    color: var(--text-color);
+}
+
+/* Smoothen scroll behavior incase user has no reduced motion preference */
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+input, textarea, button, select {
+    font: inherit;
+}
+
+::selection {
+    background-color: var(--yellow);
+    color: var(--dark-blue);
+}
+
+@media (max-width: 37.5rem) {
+    html {
+        font-size: 70%;
+    }
+}
