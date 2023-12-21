@@ -39,10 +39,10 @@
 
 @media (max-width: 37.5rem) {
     .title--lg {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     .text--lg {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
