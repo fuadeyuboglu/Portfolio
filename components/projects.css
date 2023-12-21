@@ -1,7 +1,7 @@
 .projects {
     display: flex;
     gap: var(--gap);
-    margin-block: 100px;
+    margin-block: 65px;
     align-items: center;
 }
 
@@ -28,5 +28,9 @@
 @media (max-width: 37.5rem) {
     .projects {
         display: block;
+    }
+
+    .project-screenshot {
+        margin-bottom: 20px;
     }
 }
