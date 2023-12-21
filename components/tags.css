@@ -14,3 +14,12 @@
     border-radius: 20px;
     padding: 12px 16px;
 }
+
+.tag:hover {
+    cursor: default;
+    border: 1px solid gray;
+    background: linear-gradient(90deg, #4DA74B 2.37%, #48B9F5 45.9%, #D63A31 74.59%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
