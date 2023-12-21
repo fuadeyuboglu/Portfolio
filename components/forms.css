@@ -6,11 +6,14 @@
     color: var(--dark-blue);
     padding: 12px 10px;
     font-size: 1.4rem;
-    font-weight: bold;
-    /* line-height: 1.9; */
+    font-weight: normal;
     margin-bottom: 24px;
     opacity: 0.8;
     transition: opacity 200ms;
+}
+
+.input::placeholder {
+    color: var(--dark-blue);
 }
 
 /* Email input style */
