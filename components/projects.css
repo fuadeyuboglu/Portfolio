@@ -1,7 +1,12 @@
 .projects {
     display: flex;
     gap: var(--gap);
-    margin-bottom: 100px;
+    margin-block: 100px;
+    align-items: center;
+}
+
+.projects h3 {
+    margin-top: 0;
 }
 
 .project-screenshot {
