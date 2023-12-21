@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.footer-palettes {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.palette {
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+}
+
+.palette.orange {
+    background-color: var(--orange);
+}
+
+.palette.yellow {
+    background-color: var(--yellow);
+}
+
+.palette.green {
+    background-color: var(--green);
+}
+
+.palette.blue {
+    background-color: var(--baby-blue);
+}
+
+.footer-social {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer-name {
+    margin-bottom: 0;
+}
+
+.footer-rights {
+    margin-top: 0;
+}
