@@ -20,3 +20,9 @@
     margin-top: 0px;
     margin-bottom: 5px;
 }
+
+@media (max-width: 37.5rem) {
+    .contact-form {
+        grid-template-columns: 1fr;
+    }
+}
