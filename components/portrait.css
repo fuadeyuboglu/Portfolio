@@ -1,13 +1,21 @@
 #jumbotron-picture {
-    width: 308.451px;
-    height: 365.42px;
+    width: 320px;
+    height: 380px;
     transform: rotate(-4deg);
     flex-shrink: 0;
-    border-radius: 56.97px;
-    border: 2px solid #FBC92E;
+    border-radius: 50px;
+    border: 3px solid #FBC92E;
     background-image: url("../assets/portrait.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-color: lightgray 50%;
+}
+
+@media (max-width: 37.5rem) {
+    #jumbotron-picture {
+        width: 260px;
+        height: 300px;
+        border-radius: 45px;
+    }
 }
