@@ -52,3 +52,10 @@
 .footer-rights {
     margin-top: 0;
 }
+
+
+@media (max-width: 37.5rem) {
+    .footer {
+        flex-direction: column;
+    }
+}
