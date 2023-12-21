@@ -18,8 +18,10 @@
 }
 
 .contact-line p {
+    padding: 0px;
     margin-top: 0px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: normal;
 }
 
 @media (max-width: 37.5rem) {
